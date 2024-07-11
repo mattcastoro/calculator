@@ -1,1 +1,1 @@
-# calculator
+This project will consist of making an on-screen calculator where a user will be able to add, subtract, multiply, and divide.
