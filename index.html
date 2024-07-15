@@ -10,30 +10,30 @@
         <div class="container">
             <h2 id="title">Matt's online calculator...</h2>
             <div class="row">
-                <button type="button" id="btnClear">AC</button>
-                <input type="text">
+                <button type="button" id="btnClear" onclick="clearInputDisplay()">clr</button>
+                <input type="text" id="inputDisplay" readonly>
             </div>
             <div class="row">
-                <button type="button" id="btn7">7</button>
-                <button type="button" id="btn8">8</button>
-                <button type="button" id="btn9">9</button>
+                <button type="button" class="btn" id="btn7" value="7">7</button>
+                <button type="button" class="btn" id="btn8" value="8">8</button>
+                <button type="button" class="btn" id="btn9" value="9">9</button>
                 <button type="button" id="btnDivide">&divide;</button>
             </div>
             <div class="row">
-                <button type="button" id="btn4">4</button>
-                <button type="button" id="btn5">5</button>
-                <button type="button" id="btn6">6</button>
+                <button type="button" class="btn" id="btn4" value="4">4</button>
+                <button type="button" class="btn" id="btn5" value="5">5</button>
+                <button type="button" class="btn" id="btn6" value="6">6</button>
                 <button type="button" id="btnMultiply">&times;</button>
             </div>
             <div class="row">
-                <button type="button" id="btn1">1</button>
-                <button type="button" id="btn2">2</button>
-                <button type="button" id="btn3">3</button>
+                <button type="button" class="btn" id="btn1" value="1">1</button>
+                <button type="button" class="btn" id="btn2" value="2">2</button>
+                <button type="button" class="btn" id="btn3" value="3">3</button>
                 <button type="button" id="btnMinus">&minus;</button>
             </div>
             <div class="row">
-                <button type="button" id="btn0">0</button>
-                <button type="button" id="btnDecimal">.</button>
+                <button type="button" class="btn" id="btn0" value="0">0</button>
+                <button type="button" class="btn" id="btnDecimal">.</button>
                 <button type="button" id="btnEquals">=</button>
                 <button type="button" id="btnPlus">&plus;</button>
             </div>

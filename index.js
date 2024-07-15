@@ -1,3 +1,4 @@
+// basic math functions for adding, subtracting, multiplying, and division //
 function calcSum(a, b) {
     return a + b;
 }
@@ -32,4 +33,21 @@ function operate(operator, num1, num2) {
         case "/" :
             return calcDivision(num1, num2);
     }
+}
+
+// displays value based on the button a user clicked //
+document.addEventListener("DOMContentLoaded", function() {
+    let textBox = document.querySelector("#inputDisplay");
+    let myButtons = document.querySelectorAll(".btn");
+
+    myButtons.forEach(function(btn) {
+        btn.addEventListener("click", function(e) {
+            textBox.value += this.value;
+        });
+    });
+});
+
+// clears input field
+function clearInputDisplay() {
+    document.getElementById("inputDisplay").value="";
 }
