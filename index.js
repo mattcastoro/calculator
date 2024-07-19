@@ -48,7 +48,7 @@ function operate(operator, firstValue, secondValue) {
     }
 }
 
-// DISPLAY HANDLER to display number values upon user clicks //
+// DISPLAY HANDLER to remove and then display number values upon user clicks //
 document.addEventListener("DOMContentLoaded", function() {
     let textBox = document.querySelector("#inputDisplay");
     let myButtons = document.querySelectorAll(".btn");
