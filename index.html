@@ -8,7 +8,6 @@
     </head>
     <body>
         <div class="container">
-            <h2 id="title">Matt's online calculator...</h2>
             <div class="row">
                 <button type="button" id="btnClear" onclick="resetPage()">clr</button>
                 <input type="text" id="inputDisplay" readonly>
@@ -34,9 +33,11 @@
             <div class="row">
                 <button type="button" class="btn" id="btn0" value="0">0</button>
                 <button type="button" class="btn" id="btnDecimal">.</button>
-                <button type="button" id="btnEquals" value="=">=</button>
+                <button type="button" class="btnOp" id="btnEquals" value="=">=</button>
                 <button type="button" class="btnOp" id="btnPlus" value="+">&plus;</button>
             </div>
+            <p>Note that for simplicity all results are rounded to the nearest 2 decimal places.</p>
+            <p>...and the decimal button is disabled because I may have been a bit lazy.</p>
         </div>
     </body>
 </html>
